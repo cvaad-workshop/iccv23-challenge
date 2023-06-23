@@ -78,3 +78,5 @@ The dataset will become available soon and can be downloaded from [https://data.
 
 ![image](https://github.com/cvaad-workshop/iccv23-challenge/assets/40263235/91bb134c-9443-471d-992e-e15d3bdca3f0)
 
+fltr: required structural components; zoning access graph; full layout; roomtype access graph.
+
