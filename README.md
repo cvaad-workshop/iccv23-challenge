@@ -7,6 +7,9 @@ The floor plan auto-completion task takes as input the boundary of a building, t
 
 The challenge is to develop a deep-learning model that can learn from the training data (image or graph or both) the mapping between the coarse zoning area to the fine floor plan configuration by means of learning the room shapes and types and the interior walls in between.
 
+![image](https://github.com/cvaad-workshop/iccv23-challenge/assets/40263235/ee60008d-a93c-457c-9998-968a310a16da)
+
+
 While previous research on floor plan generation has mainly focused on the scale of individual apartments, our challenge sets the stage for floor plan generation at a larger scale: the scale of the apartment complex.
 
 ### Evaluation
@@ -21,12 +24,11 @@ The dataset can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "
 ### Folder structure
 
 ```markdown
-├── swiss-dwellings
-│   ├── v3.0.0
-│   │   ├── structure_in
-│   │   ├── graph_in
-│   │   ├── img_out
-│   │   ├── graph_out
+├── modified-swiss-dwellings
+│   ├── structure_in
+│   ├── graph_in
+│   ├── img_out
+│   ├── graph_out
 ```
 
 ### Training data
@@ -43,8 +45,6 @@ The dataset can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "
 		2. 2nd channel: **x location** 
 		3. 3rd channel: **y location**
 
-![image](https://github.com/cvaad-workshop/swiss-dwelling-private/assets/40263235/94508a5e-1437-4028-a224-80e2985f2bdb)
-
 2. Required **zoning access graph** as a graph representation
 	1. Data format: `.pickle` 
 	2. Type: `networkx.Graph()`
@@ -52,8 +52,6 @@ The dataset can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "
 		1. `zoning`: **classification of spatial "zone"** 
 	4. Edges are access connectivity w/ attributes:
 		1. `connectivity`: **classification of access type**, *e.g.*, "door", "entrance door", "passage"
-
-![image](https://github.com/cvaad-workshop/swiss-dwelling-private/assets/40263235/7332348a-58a3-407b-a011-9431c2677b10)
 
 #### Output data
 
@@ -67,9 +65,8 @@ The dataset can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "
 		2. 2nd channel: **x location** 
 		3. 3rd channel: **y location**
 
-![image](https://github.com/cvaad-workshop/swiss-dwelling-private/assets/40263235/a54d84ff-b14c-4d9b-b7a5-009e570ca658)
 
-2. **Full room-type access graph** as a graph representation (the topology of zoning and room-type access graph are equivalent!)
+2. **Full room access graph** as a graph representation (the topology of zoning and room access graph are equivalent!)
 	1. Data format: `.pickle` 
 	2. Type: `networkx.Graph()`
 	3. Nodes are area w/ attributes:
@@ -79,4 +76,5 @@ The dataset can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "
 	4. Edges are access connectivity w/ attributes:
 		1. `connectivity`: **classification of access type**, *e.g.*, "door", "entrance door", "passage"
 
-![image](https://github.com/cvaad-workshop/swiss-dwelling-private/assets/40263235/c85259d8-2527-4566-b9da-04c6608eec77)
+![image](https://github.com/cvaad-workshop/iccv23-challenge/assets/40263235/91bb134c-9443-471d-992e-e15d3bdca3f0)
+
