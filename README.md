@@ -9,6 +9,10 @@ The challenge is to develop a deep-learning model that can learn from the traini
 
 While previous research on floor plan generation has mainly focused on the scale of individual apartments, our challenge sets the stage for floor plan generation at a larger scale: the scale of the apartment complex.
 
+### Evaluation
+
+Evaluation will be done by the (mean) Intersection-over-Union between the predicted full floor plan and the ground truth.
+
 ## About the dataset
 The dataset (train split) contains **4167 floor plans** of single- as well as multi-unit building complexes, hence extending the building scale w.r.t. of other well know floor plan datasets like [RPLAN](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html). 
 
