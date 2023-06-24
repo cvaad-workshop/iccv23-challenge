@@ -1,6 +1,4 @@
-# Modified Swiss Dwellings: a Machine Learning-ready Dataset for Floor Plan Auto-Completion at Scale
-
-We present the **Modified Swiss Dwellings** dataset, a ML-ready dataset for floor plan auto-completion at scale. The dataset is derived from the [Swiss Dwellings database](https://zenodo.org/record/7788422) (v3.0.0). 
+# Floor Plan Auto-Completion at Scale
 
 ## About the challenge
 The floor plan auto-completion task takes as input the boundary of a building, the structural elements necessary for the building’s structural integrity, and a set of user constraints formalized in a graph structure, with the goal of automatically generating the full floor plan. 
@@ -17,9 +15,9 @@ While previous research on floor plan generation has mainly focused on the scale
 Evaluation will be done by the (mean) Intersection-over-Union between the predicted full floor plan and the ground truth.
 
 ## About the dataset
-The dataset (train split) contains **4167 floor plans** of single- as well as multi-unit building complexes, hence extending the building scale w.r.t. of other well know floor plan datasets like [RPLAN](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html). 
+We developed our own dataset for the challenge, coined [Modified Swiss Dwellings: a Machine Learning-ready Dataset for Floor Plan Auto-Completion at Scale](https://data.4tu.nl/datasets/e1d89cb5-6872-48fc-be63-aadd687ee6f9) (MSD), which is based on the [Swiss Dwellings](https://zenodo.org/record/7788422) database. NSD contains **4167 floor plans** of single- as well as multi-unit building complexes, hence extending the building scale w.r.t. of other well know floor plan datasets like [RPLAN](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html).
 
-The dataset will become available soon and can be downloaded from [https://data.4tu.nl/](https://data.4tu.nl/ "https://data.4tu.nl/").
+The test split will be withhold for competitors, and will be used for evaluation solely. 
 
 ### Folder structure
 
