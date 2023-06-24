@@ -15,7 +15,7 @@ While previous research on floor plan generation has mainly focused on the scale
 Evaluation will be done by the (mean) Intersection-over-Union between the predicted full floor plan and the ground truth.
 
 ## About the dataset
-We developed our own dataset for the challenge, coined [Modified Swiss Dwellings: a Machine Learning-ready Dataset for Floor Plan Auto-Completion at Scale](https://data.4tu.nl/datasets/e1d89cb5-6872-48fc-be63-aadd687ee6f9) (MSD), which is based on the [Swiss Dwellings](https://zenodo.org/record/7788422) database. NSD contains **4167 floor plans** of single- as well as multi-unit building complexes, hence extending the building scale w.r.t. of other well know floor plan datasets like [RPLAN](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html).
+We developed our own dataset for the challenge, coined [Modified Swiss Dwellings: a Machine Learning-ready Dataset for Floor Plan Auto-Completion at Scale](https://data.4tu.nl/datasets/e1d89cb5-6872-48fc-be63-aadd687ee6f9) (MSD), which is based on the [Swiss Dwellings](https://zenodo.org/record/7788422) database. MSD contains **4167 floor plans** of single- as well as multi-unit building complexes, hence extending the building scale w.r.t. of other well know floor plan datasets like [RPLAN](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html).
 
 The test split will be withhold for competitors, and will be used for evaluation solely. 
 
