@@ -12,8 +12,7 @@ We hope that this challenge will inspire numerous researchers world-wide.
 ## Data
 We developed our own dataset for the challenge; **Modified Swiss Dwellings: a Machine Learning-ready Dataset for Floor Plan Auto-Completion at Scale** (MSD):
 
-- [Link to dataset and download @ 4TU.ResearchData](https://data.4tu.nl/datasets/e1d89cb5-6872-48fc-be63-aadd687ee6f9);
-- ([Link to dataset and download @ Kaggle](https://www.kaggle.com/datasets/caspervanengelenburg/modified-swiss-dwellings));
+- [Link to dataset and download @ Kaggle](https://www.kaggle.com/datasets/caspervanengelenburg/modified-swiss-dwellings);
 - Based on the [Swiss Dwellings](https://zenodo.org/record/7788422) database;
 - Contains **5000+ floor plans** of single- as well as multi-unit building complexes.
 
