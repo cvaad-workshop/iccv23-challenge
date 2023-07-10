@@ -116,7 +116,7 @@ For more information on how you should pack your submission and save your predic
 ## Resources
 To accommodate submissions to the challenge we provide a toolkit that contains:
 - [Python tools for handling (loading, understanding, and converting) the data](https://github.com/cvaad-workshop/iccv23-challenge/blob/main/guidelines.ipynb); and 
-- [Python tools for helping to create the correct submissions](https://github.com/cvaad-workshop/iccv23-challenge/blob/main/guidelines.ipynb).
+- [Python tools for helping to create the correct submissions](https://github.com/cvaad-workshop/iccv23-challenge/blob/main/submission.ipynb).
 
 ## Important Dates
 - Data and description open: June 22nd, 2023;
