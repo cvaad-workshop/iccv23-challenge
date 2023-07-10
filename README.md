@@ -38,51 +38,7 @@ The dataset has two ZIP archives:
 │   ├── graph_in
 ```
 
-### Input data
-
-1. Required **structural components** as an image representation
-	1. Data format: `.npy`
-	2. Type: `numpy` array
-	3. Data type: `.float16`
-	4. Shape: $[512, 512, 3]$
-	5. Info:
-		1. 1st channel: **binary mask of structure** (0 = structure, 1 = non-structure)
-		2. 2nd channel: **x location** 
-		3. 3rd channel: **y location**
-
-2. Required **zoning access graph** as a graph representation
-	1. Data format: `.pickle` 
-	2. Type: `networkx.Graph()`
-	3. Nodes are area w/ attributes:
-		1. `zoning`: **classification of spatial "zone"** 
-	4. Edges are access connectivity w/ attributes:
-		1. `connectivity`: **classification of access type**, *e.g.*, "door", "entrance door", "passage"
-
-### Output data
-
-1. **Full floor plan** as an image representation (excluding doors and openings)
-	1. Data format: `.npy`
-	2. Type: `numpy` array
-	3. Data type: `.float16`
-	4. Shape: $[512, 512, 3]$
-	5. Info:
-		1. 1st channel: **multi-class segmentation mask** (integer value corresponds to certain room-type)
-		2. 2nd channel: **x location** 
-		3. 3rd channel: **y location**
-
-
-2. **Full room access graph** as a graph representation (the topology of zoning and room access graph are equivalent!)
-	1. Data format: `.pickle` 
-	2. Type: `networkx.Graph()`
-	3. Nodes are area w/ attributes:
-		1. `roomtype`: **classification of room-type**, *e.g.*, "Bathroom", "Livingroom", "Bedroom"
-		2. `centroid`: **centroid of the room** (midpoint)
-		3. `geometry`: **shape of room** as a polygon (`shapely.geometry.Polygon()`)
-	4. Edges are access connectivity w/ attributes:
-		1. `connectivity`: **classification of access type**, *e.g.*, "door", "entrance door", "passage"
-
-![image](https://github.com/cvaad-workshop/iccv23-challenge/assets/40263235/91bb134c-9443-471d-992e-e15d3bdca3f0)
-fltr: required structural components; zoning access graph; full layout; roomtype access graph.
+[This is a link to how the data is formatted](https://github.com/cvaad-workshop/iccv23-challenge/blob/main/data-README.md).
 
 ## Awards
 We have a reward of 1000 EUR (~1.095 USD) for the best contender. 
