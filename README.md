@@ -125,10 +125,14 @@ To accommodate submissions to the challenge we provide a toolkit that contains:
 - Winners announced: Live session at ICCV.
 
 ## Rules
-- For submissions on CodaLab to qualify to the challenge we require the contenders to submit a **one-pager** **(or poster)** about their final submission. See details below under “One-pager (or Poster)”. Submissions without a report or paper associated do not qualify to the competition.
+- For submissions on CodaLab to qualify to the challenge we require the contenders to submit a short **technical report** about their final submission. See details below under “Report”. Submissions without a report associated do not qualify to the competition.
 - Top contenders in the challenge are required to make their work **reproducible**. This means that contenders should be able to share their code (or show to others how it can be used) and that the results are equivalent to the scores in the leaderboard. The organizers might (randomly) contact top contenders to check this criteria. (It is not required, although highly encouraged, to provide a GitHub repository, or similar, about the submission.)
 - Organizers retain the right to disqualify any submissions that violate these rules.
 - (Be aware that you are allowed to use any other data for training or any pre-trained model.)
 
-## One-pager (or Poster)
-For submissions on CodaLab to qualify to the challenge we require the authors submit a **one-pager** about their final submission. We expect the one-pager to consists of three sections: introduction, method, and results/discussion. (It shouldn't extend 800 words.) Please add as many (well-captioned) figures if necessary. Instead of a one pager, a **poster** of your work (A1 or A0 in any orientation) is also fine. After the conference we will publish the links to the technical reports on the workshop website.
+## Report
+- For submissions on CodaLab to qualify to the challenge we require the authors submit a short **technical report** about their final submission.
+- We suggest that the technical report consists of three sections: introduction, method, and results/discussion.
+- The report should not be longer than 3 pages and shouldn't extend 2000 words.
+- Authors are to submit their report to [ArXiv](https://arxiv.org/) and submit the link to c.c.j.vanengelenburg AT tudelft DOT nl. Those unable to submit to Arxiv can email their report directly to c.c.j.vanengelenburg AT tudelft DOT nl.
+- After the conference we will publish the links to the technical reports on the workshop website.
